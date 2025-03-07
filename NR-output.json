@@ -1,0 +1,58 @@
+{
+  "scenarioId": "S001",
+  "title": "Assemble Quantum Experiment Device",
+  "description": "A process for assembling a quantum experiment device in the lab.",
+  "tasks": [
+    {
+      "taskId": "T1",
+      "action": "Gather Materials",
+      "startTime": "2023-10-15T08:00:00Z",
+      "endTime": "2023-10-15T08:30:00Z",
+      "expectedOutcome": "All materials are collected and ready for assembly.",
+      "impact": "neutral"
+    },
+    {
+      "taskId": "T2",
+      "action": "Set Up Workstation",
+      "startTime": "2023-10-15T08:15:00Z",
+      "endTime": "2023-10-15T08:45:00Z",
+      "expectedOutcome": "Workstation is clean and organized for assembly.",
+      "impact": "positive"
+    },
+    {
+      "taskId": "T3",
+      "action": "Assemble Device Components",
+      "startTime": "2023-10-15T08:45:00Z",
+      "endTime": "2023-10-15T09:30:00Z",
+      "expectedOutcome": "Device components are securely assembled.",
+      "impact": "positive",
+      "dependencies": ["T1", "T2"]
+    },
+    {
+      "taskId": "T4",
+      "action": "Install Control Software",
+      "startTime": "2023-10-15T09:00:00Z",
+      "endTime": "2023-10-15T09:30:00Z",
+      "expectedOutcome": "Control software is installed and configured.",
+      "impact": "positive",
+      "dependencies": ["T1"]
+    },
+    {
+      "taskId": "T5",
+      "action": "Conduct Initial Testing",
+      "startTime": "2023-10-15T09:30:00Z",
+      "endTime": "2023-10-15T10:00:00Z",
+      "expectedOutcome": "Device passes initial functionality tests.",
+      "impact": "positive",
+      "dependencies": ["T3", "T4"]
+    }
+  ],
+  "safetyProtocols": [
+    "Wear appropriate personal protective equipment (PPE).",
+    "Ensure emergency shut-off is accessible.",
+    "Follow lab safety guidelines."
+  ],
+  "createdDate": "2023-10-01",
+  "lastUpdated": "2023-10-01",
+  "status": "active"
+}
