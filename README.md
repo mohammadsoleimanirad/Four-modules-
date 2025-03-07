@@ -57,7 +57,7 @@ By integrating insights from these diverse fields, we hope to advance our unders
 
 
 
-Criterion for feasibility:
+1. Criterion for feasibility:
 
 
 
@@ -96,7 +96,7 @@ Criterion for feasibility:
 
 
 
-Physics engine:
+2. Physics engine:
 
 
 
@@ -130,7 +130,7 @@ Energy matter distribution 
 Curvature of spacetime 
 
 
-Nr:Here we come up with a model that is unique to one system and will not work with small tweaks for other
+2. Nr:Here we come up el that is unique to one system and will not work with small tweaks for other
 
 
 NR
@@ -150,7 +150,7 @@ NR
 
 
 
-Irg
+4. Irg
 
 Managing risk
 
